@@ -1,0 +1,129 @@
+body{
+   
+  font-family: "Lexend Deca",sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;}
+.main{
+    position:relative;
+    left: 500px;
+    top: 250px;
+    width: 1440px;
+    
+}
+
+.Sedans{
+    height: 400px;
+    width: 300px;
+    background-color:hsl(31, 77%, 52%);
+    border-radius:8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float: left
+}
+.Sedans img{
+    padding: 20px 35px;
+    margin-left: -10px;
+}
+.Sedans h1{
+margin-top: -10px;
+margin-left: 20px;
+letter-spacing: -3PX;
+color: aliceblue;
+}
+.Sedans pre{
+    color: rgba(240, 248, 255, 0.815);
+    font-size: 15px;
+    line-height: 1.5;
+margin-left: 17px;
+font-family: "Big Shoulders Display", sans-serif;
+}
+.Sedans a{
+    text-decoration: none;
+    padding: 10px 25PX;
+    background-color: aliceblue;
+    margin-left: 25px;
+    position: relative;
+    top: 70px;
+    border-radius: 20px;
+    color:hsl(31, 77%, 52%);
+}
+.Sedans a:hover{
+    background-color: rgba(17, 2, 20, 0.925);
+    
+}
+/*Subs*/
+.Suvs{
+    height: 400px;
+    width: 300px;
+    background-color:hsl(184, 100%, 22%);
+    float: left;
+}
+.Suvs img{
+    padding: 20px 35px;
+    margin-left: -10px;
+}
+.Suvs h1{
+margin-top: -10px;
+margin-left: 20px;
+letter-spacing: -3PX;
+color: aliceblue;
+}
+.Suvs pre{
+    color: rgba(240, 248, 255, 0.815);
+    font-size: 15px;
+    line-height: 1.5;
+margin-left: 17px;
+}
+.Suvs a{
+    text-decoration: none;
+    padding: 10px 25PX;
+    background-color: aliceblue;
+    margin-left: 25px;
+    position: relative;
+    top: 70px;
+    border-radius: 20px;
+    color:hsl(184, 100%, 22%);
+}
+.Suvs a :hover{
+    background-color: rgb(250, 3, 3);
+}
+/*LUXURY*/
+.luxury{
+    height: 400px;
+    width: 300px;
+    background-color:hsl(179, 100%, 13%);
+    border-radius:8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    float: left
+}
+.luxury img{
+    padding: 20px 35px;
+    margin-left: -10px;
+}
+.luxury h1{
+margin-top: -10px;
+margin-left: 20px;
+letter-spacing: -3PX;
+color: aliceblue;
+}
+.luxury pre{
+    color: rgba(240, 248, 255, 0.815);
+    font-size: 15px;
+    line-height: 1.5;
+margin-left: 17px;
+}
+.luxury a{
+    text-decoration: none;
+    padding: 10px 25PX;
+    background-color: aliceblue;
+    margin-left: 25px;
+    position: relative;
+    top: 70px;
+    border-radius: 20px;
+    color:hsl(179, 100%, 13%);
+}
+.luxury a:hover{
+background-color: rgb(252, 207, 6);
+}
